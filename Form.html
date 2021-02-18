@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>registration from</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<style type="text/css">
+		body{
+			text-transform: uppercase;
+			font-weight: bold;
+			font-family: sans-serif;
+			color: royalblue;
+		}
+		#btn{
+			color: #4B0082;
+			font-weight: bold;
+			font-size: 2em;
+		}
+	</style>
+</head>
+<body>
+
+<form>
+	<div class="container">
+		<img src="Registration.png" class="img-fluid">
+	<hr>
+	<label>First Name: </label>
+	<input class="form-control" type="text" name="fname" minlength="3" maxlength="20" required="">
+	<br>
+	<label>Last Name: </label>
+	<input class="form-control" type="text" name="lname" minlength="3" maxlength="20" required="">
+	<br>
+	<label>Father Name: </label>
+	<input class="form-control" type="text" name="fname" required="">
+	<br>
+	<label>Email: </label>
+	<input class="form-control" type="email" name="email" required="@gmail.com">
+	<br>
+	<label>Date Of Birth: </label>
+	<input class="form-control" type="date" name="dob" required="">
+	<br>
+	<label>Gender: </label>
+	<select class="form-control" name="gender" required="">
+		<option>Male</option>
+		<option>Female</option>
+	</select>
+	<br>
+	<label>CNIC: </label>
+	<input class="form-control" type="number" name="cnic" required="">
+	<br>
+	<label>Address: </label>
+	<input class="form-control" type="text" name="address" required="">
+	<br>
+	<label>City: </label>
+	<input class="form-control" type="text" name="city" required="">
+	<br>
+	<label>Contact Number: </label>
+	<input class="form-control" type="number" name="number" required="">
+	<br>
+	<input class="form-control btn btn-warning text-uppercase " type="submit" name="btn_submit" id="btn" value="submit">
+	<hr>
+</form>
+</div>
+</body>
+</html>
